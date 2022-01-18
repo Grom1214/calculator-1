@@ -16,6 +16,21 @@ reader.question("What would you like to calculate?", function(input){
 
 
 	// This line closes the connection to the command line interface.
+	if (mathSymbol === "+"){
+		console.log(num1 + num2);
+	}
+
+	if (mathSymbol === "-"){
+		console.log(num1 - num2);
+	}
+
+	if (mathSymbol === "/"){
+		console.log(num1 / num2);
+	}
+
+	if (mathSymbol === "sqrt"){
+		console.log(math.sqrt(num1));
+	}
 	reader.close()
 
 });
